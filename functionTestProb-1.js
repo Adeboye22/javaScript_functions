@@ -2,10 +2,10 @@
 
 function isEven(x) {
 	if (x % 2 == 0) {
-		return "True";
+		return true;
 	}
 
-	return "False";
+	return false;
 }
 
 //invoke the function
