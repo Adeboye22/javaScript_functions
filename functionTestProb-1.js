@@ -1,7 +1,8 @@
 //declare a function
 
-function isEven(x) {
-	if (x % 2 == 0) {
+/*
+ * function isEven(x) {
+	if (x % 2 === 0) {
 		return true;
 	}
 
@@ -10,3 +11,8 @@ function isEven(x) {
 
 //invoke the function
 isEven(4);
+*/
+
+function isEven(num){
+	return num % 2 === 0;
+}
